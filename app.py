@@ -117,7 +117,7 @@ def init_db():
 
     # Default users
     users = [
-        ("admin",        generate_password_hash("admin123"),        "admin"),
+        ("admin",        generate_password_hash("ITyn%9*qvY"),        "admin"),
         ("investigator", generate_password_hash("invest123"),       "investigator"),
         ("aaditi",       generate_password_hash("twinlogic2026"),   "investigator"),
         ("himisha",      generate_password_hash("twinlogic2026"),   "investigator"),
@@ -629,3 +629,4 @@ if __name__ == "__main__":
     init_db()
     port = int(os.environ.get("PORT",5000)
     app.run(host="0.0.0.0, port=port)
+
